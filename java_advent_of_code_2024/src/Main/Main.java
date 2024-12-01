@@ -9,7 +9,8 @@ public class Main {
 	}
 	
 	private void visite(Solver solver) {
-		System.out.println(solver.solve());
+		System.out.println("solve1 : " + solver.solve());
+		System.out.println("solve2 : " + solver.solve2());
 	}
 	
 	public static void main(String[] args) {
